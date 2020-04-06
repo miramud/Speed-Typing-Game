@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background: rgb(6, 28, 226);
+}
+.container{
+    width: 95%;
+    margin: 0px auto;
+    text-align: center;
+}
+.timer{
+    margin-top: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 241, 239);
+}
+.sub-container{
+    background: rgb(243, 212, 156);
+    margin-top: 3rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.correct-word{
+    color: rgb(4, 114, 4);
+}
+.wrong-word{
+    color: red;
+    text-decoration: underline;
+}
+.words{
+    color: rgb(46, 46, 46);
+    padding-left: calc(1rem + 2px);
+    padding-right: calc(1rem + 2px);
+    text-align: justify;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.typer{
+    background:  transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: inherit;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    margin-top: 2rem;
+    border: 2px solid rgb(160, 106, 6);
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 2s;
+    resize: none;
+}
+.typer:focus{
+ border-color: rgb(131, 130, 130);
+}
